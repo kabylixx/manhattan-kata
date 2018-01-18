@@ -1,0 +1,25 @@
+{
+    "name": "sofiane/manathan-distance-kata",
+    "require": {
+        "phpunit/phpunit": "4.8",
+        "mockery/mockery": "^0.8"
+    },
+    "autoload":
+    {
+        "psr-4": {
+            "Kata\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kata\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sofiane SADOUD",
+            "email": "sofiane.sadoud@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
